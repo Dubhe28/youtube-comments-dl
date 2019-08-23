@@ -1,7 +1,7 @@
 # youtube-comments-dl
 Command-line program to download comments of a YouTube video using YouTube API key
 
-# Usage
+## Usage
 
 To use the program to download comments of a video:
 
