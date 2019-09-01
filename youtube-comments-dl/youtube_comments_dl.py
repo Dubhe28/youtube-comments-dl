@@ -100,7 +100,7 @@ def main():
             if "[YOUR_API_KEY]" in api_key:
                 raise ValueError
         except:
-            print("ERROR: Please give a Youtube API key in a text file ('youtube_api_key.txt') or as an argument [-k]")
+            print("ERROR: Please give a Youtube API key in the text file ('youtube_api_key.txt') or as an argument [-k]")
             exit()
 
     max_page = int(dequote(args.max_page))
